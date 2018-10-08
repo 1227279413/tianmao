@@ -1,0 +1,364 @@
+*{
+	padding: 0;
+	margin:0 ;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+/*头部开始*/
+header{
+	width: 100%;
+	height: 1.8rem;
+	background: red;
+	padding:.1rem .2rem;
+	box-sizing: border-box;
+	position: fixed;
+	z-index: 100;
+	top:0;
+	left:0;
+}
+.top{
+	position: absolute;
+	top:.82rem;
+	left:0;
+	right:0;
+	margin:0 auto;
+	width: 6.33rem;
+	height: .54rem;
+	background-color:#fff;
+}
+header img{
+	display: block;
+	position: absolute;
+	width: 2.37rem;
+	height: .41rem;
+	top:.2rem;
+	left:0;
+	right:0;
+	margin:0 auto;
+}
+header h1{
+	font-size: .20rem;
+	position: absolute;
+	top:.2rem;
+	right:.3rem;
+	margin:auto 0;
+	color: #fff;
+}
+header em:first-child{
+	position: absolute;
+	top:.2rem;
+	left:.3rem;
+	font-size: .30rem;
+	color: #fff;
+}
+.top li{
+	line-height: .54rem;
+	font-size: .40rem;
+	position: absolute;
+	color: #B4B7B1;
+	top:0;
+	left:.1rem;
+	bottom:0;
+	margin: auto 0;
+}
+.top input{
+	font-size: .2rem;
+	position: absolute;
+	top:0;
+	left:.6rem;
+	bottom:0;
+	margin: auto 0;
+	border: 0;
+	width: 5.5rem;
+	height: .5rem;
+	outline: none;
+}
+/*头部结束*/
+/*导航开始*/
+#dao{
+	width: 100%;
+	margin-top:2rem;
+	height: 1.52rem;
+	padding:0 .2rem;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+.dao-box{
+	width: 1.4em;
+	height: 100%;
+	display: flex;
+	align-content: space-between;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.dao-box img{
+	width: .96em;
+	height: .96rem;
+	display: block;
+	margin:.1rem auto 0;
+	box-sizing: border-box;
+}
+.dao-box h1{
+	width: 100%;
+	font-size: .20rem;
+	text-align: center;
+}
+/*导航结束*/
+/*banner开始*/
+#banner{
+	width: 100%;
+	height: 2.6rem;
+	padding:0 .2rem;
+	margin-top:.2rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.banner{
+	width: 7rem;
+	height: 2.6rem;
+	position: absolute;
+	left:0;
+    right:0;
+	margin:auto;
+	overflow: hidden;
+}
+.banner-l{
+	width: 7rem;
+	height: 2.6rem;
+	position: absolute;
+	left:-14rem;
+    right:0;
+	margin:auto;
+}
+.banner-l img{
+	width: 7rem;
+	height: 2.6rem;
+}
+.b-dianbox {
+    width: 5rem;
+    position: absolute;
+    bottom:.2rem;
+    left:0;
+    right:0;
+    margin:0 auto;
+    display: flex;
+    z-index: 20;
+    justify-content: space-between;
+}
+.b-dian{
+    width: .36rem;
+    height: .04rem;
+    background: rgba(0,0,0,.8);
+}
+/*banner结束*/
+#bei{
+	width: 100%;
+	height: 4.9rem;
+}
+#bei img{
+	width: 100%;
+	height: 4.9rem;
+}
+/*好货开始*/
+#hao{
+	width: 100%;
+	height: 4.72rem;
+	box-sizing: border-box;
+}
+#hao h1{
+	padding:0 .2rem;
+	font-size: .3rem;
+}
+.hao-nei{
+	width: 100%;
+	height: 4rem;
+	background: url("../../image/yidong/hao/kuang.webp") 0 0 no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.hao-top{
+	height: .9rem;
+	width: 100%;
+	padding:0 .4rem;
+	margin-top:.1rem;
+}
+.hao-top h2{
+	float: left;
+	font-size: .3rem;
+	line-height: .9rem;
+}
+.hao-top li{
+	float: left;
+	font-size: .3rem;
+	line-height: .9rem;
+	margin-left:.1rem;
+}
+.hao-top span{
+	background: #000;
+	color:#fff;
+	margin:0 .05rem;
+	padding:.05rem;
+}
+.hao-di{
+	width: 100%;
+	height: 2.4rem;
+	margin-top:.2rem;
+	box-sizing: border-box;
+	padding:0 .4rem;
+	display: flex;
+	justify-content: space-between;
+}
+.hao-xbox{
+	width: 1.44rem;
+	height: 2.4rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+}
+.hao-xbox img{
+	width: 1.42rem;
+	height: 1.42rem;
+}
+.hao-xbox h3,h4{
+	font-size: .25rem;
+	font-weight: 400;
+	text-align: center;
+}
+.hao-xbox h3{
+	width: 100%;
+	color:red;
+	margin-top:.2rem;
+}
+/*好货结束*/
+/*直售开始*/
+#zhi{
+	width: 100%;
+	height: 6.5rem;
+	box-sizing: border-box;
+	padding:0 .2rem;
+}
+#zhi h1{
+	font-size: .3rem;
+	margin-bottom:.2rem;
+}
+.zhi-bottom{
+	width: 7.26rem;
+	height: 5.58rem;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+	margin:0 auto;
+}
+.zhi-box{
+	width: 3.4rem;
+	height: 2.67rem;
+	background: url("../../image/yidong/zhi/bei.png")0 0 no-repeat;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	padding-top:.2rem;
+}
+.zhi-box span{
+	display: block;
+	padding:.1rem 0 0 .3rem;
+	font-size: .3rem;
+	line-height: .3rem;
+}
+.zhi-img{
+	padding:.2rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+}
+.zhi-img img{
+	width: 1.26rem;
+	height: 1.26rem;
+}
+
+
+/*直售结束*/
+/*为你精选开始*/
+#jing{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 .2rem;
+}
+#jing h1{
+	font-size: .3rem;
+	margin-bottom:.2rem;
+}
+.jing-box{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.jing-xbox{
+	height: 5.6rem;
+	border:1px solid #ccc;
+	margin-bottom:.2rem;
+}
+.jing-top{
+	width: 3.36rem;
+	height: 3.36em;
+	box-sizing: border-box;
+	padding: .3rem;
+	background: #F7F7F7;
+}
+.jing-top img{
+	width: 2.76rem;
+	height: 2.76em;
+}
+.jing-bottom{
+	width: 100%;
+	height: 2.26rem;
+	position: relative;
+}
+.jing-bottom span{
+	position: absolute;
+	top:-.15rem;
+	left:.15rem;
+	background: #88A3C0;
+	color:#fff;
+	box-sizing: border-box;
+	padding:.05rem .1rem;
+	font-size: .2rem;
+	margin:auto;
+}
+.jing-bottom h2{
+	width: 3rem;
+	box-sizing: border-box;
+	padding:.3rem .05rem 0 .1rem;
+	font-size: .3rem;
+	font-weight: 200;
+	display: -webkit-box;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp:2;
+	margin-left:.15rem;
+}
+.jing-bottom h3{
+	position: absolute;
+	left:.15rem;
+	bottom:.15rem;
+	color:red;
+	box-sizing: border-box;
+	padding:.05rem;
+	font-size: .3rem;
+}
+
+.jing-bottom img{
+	width: 1.48rem;
+	height: .8rem;
+	position: absolute;
+	right:.15rem;
+	bottom:0;
+	font-size: .2rem;
+}
+/*为你精选结束*/
