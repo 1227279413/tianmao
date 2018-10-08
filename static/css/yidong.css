@@ -29,6 +29,7 @@ header{
 	width: 6.33rem;
 	height: .54rem;
 	background-color:#fff;
+	border-radius: .1rem;
 }
 header img{
 	display: block;

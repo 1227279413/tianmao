@@ -5,11 +5,15 @@
         if(top>top1){
             $('header').animate({height:.8+'rem'},2)
             $('#dao').animate({'margin-top':.9+'rem'},2)
-            $('.top').animate({top:.1+'rem'},2)
+            $('.top').animate({top:.1+'rem'},1)
+            $('.top').animate({width:5.33+'rem'},2)
+            $('.top input').animate({width:4.5+'rem'},2)
         }else{
             $('header').animate({height:1.8+'rem'},2)
             $('#dao').animate({'margin-top':2+'rem'},2)
-            $('.top').animate({top:.82+'rem'},2)
+            $('.top').animate({top:.82+'rem'},1)
+            $('.top').animate({width:6.33+'rem'},2)
+            $('.top input').animate({width:5.5+'rem'},2)
         }
     })
 
