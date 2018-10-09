@@ -12,6 +12,9 @@ a{
 body{
     background: #F5F5F5;
 }
+span,li,img{
+    cursor: pointer;
+}
 /*楼层开始*/
 #lou{
     width: 36px;
@@ -329,6 +332,9 @@ header{
 .banner-top2 li{
     line-height: 36px;
     margin:0 10px;
+}
+.banner-top2 li:hover{
+    color:red;
 }
 #banner{
     width: 100%;
@@ -978,11 +984,10 @@ footer{
     height: 100%;
 }
 .xin{
-    width: 1005px;
+    width: 1230px;
     height: 269px;
-
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-content: space-between;
 }
 .xin img{

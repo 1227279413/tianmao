@@ -60,7 +60,7 @@
 
     $(window).scroll(function () {
         let top=Math.floor($(this).scrollTop())-500
-        top>=400?$("#lou").slideDown():$("#lou").fadeOut();
+        top>=1000?$("#lou").slideDown():$("#lou").fadeOut();
         top>=300?$(".fu").slideDown():$(".fu").fadeOut();
 
         let index=arr.findIndex((item)=>item>top)
