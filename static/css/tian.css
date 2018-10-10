@@ -1,0 +1,41 @@
+@media screen and (max-width: 1230px) {
+  .bian {
+    width: 982px;
+  }
+  .chao > .chao-box > .biann {
+    width: 746px;
+  }
+  .header-right > .hend {
+    display: none;
+  }
+  #huan > .huanx > .xin > .hend {
+    display: none;
+  }
+  #pin > .pin > .hend {
+    display: none;
+  }
+  .pai > .hend {
+    display: none;
+  }
+  .chao-box > .hend {
+    display: none;
+  }
+  .chao-box > .chao_box > .hend {
+    display: none;
+  }
+  .fu > .fu-l > .bian {
+    width: 982px;
+  }
+  .cai > .dbox {
+    width: 187px;
+  }
+  .hend {
+    display: none;
+  }
+  .chao > .chao-top > .chao-topr > .hend {
+    display: none;
+  }
+  .banner-2 {
+    width: 782px;
+  }
+}

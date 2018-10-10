@@ -15,6 +15,9 @@ body{
 span,li,img{
     cursor: pointer;
 }
+input{
+    outline: none;
+}
 /*楼层开始*/
 #lou{
     width: 36px;
@@ -607,6 +610,7 @@ header{
     margin-top:5px;
 }
 .chao-box{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -868,33 +872,33 @@ footer{
     display: flex;
     box-sizing: border-box;
     padding-top:9px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     border-bottom: 1px solid #ededed;
 }
 .di-1{
-    width: 297px;
+    width: 247px;
     height: 100px;
     background: url("../../image/di.jpg");
-    background-position: 0 0;
+    background-position: -51px 0;
 }
 .di-2{
-    width: 297px;
+    width: 247px;
     height: 100px;
     background: url("../../image/di.jpg");
-    background-position: -297.5px 0;
+    background-position: -333px 0;
 }
 .di-3{
-    width: 297px;
+    width: 247px;
     height: 100px;
     background: url("../../image/di.jpg");
-    background-position: -595px 0;
+    background-position: -631px 0;
 }
 .di-4{
-    width: 297px;
+    width: 247px;
     height: 100px;
     background: url("../../image/di.jpg");
-    background-position: -892.5px 0;
+    background-position: -952px 0;
 }
 
 
@@ -967,6 +971,10 @@ footer{
 }
 /*换新开始*/
 #huan{
+    width: 100%;
+    height: 329px;
+}
+.huanx{
     width: 1230px;
     height: 329px;
     display: flex;
